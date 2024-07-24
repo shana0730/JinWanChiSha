@@ -3,7 +3,7 @@ let restaurants = [
 ];
 
 document.addEventListener("DOMContentLoaded", function() {
-    liff.init({ liffId: "YOUR_LIFF_ID" }, () => {
+    liff.init({ liffId: "LIFF_ID" }, () => {
         document.getElementById('rollButton').addEventListener('click', rollRestaurant);
         document.getElementById('addButton').addEventListener('click', addRestaurant);
         document.getElementById('removeButton').addEventListener('click', removeRestaurant);
